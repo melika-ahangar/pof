@@ -1,0 +1,340 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+}
+/*شروع کد های فوتر*/
+.footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-color: #4d4949;
+}
+
+.shabi {
+    width: 26%;
+    float: right;
+    height: 100%;
+    /*border:1px solid red*/
+}
+
+.akhar {
+    width: 100%;
+    height: 63px;
+    border-top: 0.5px solid #000000;
+}
+
+.k {
+    width: 46%;
+    float: left;
+    direction: ltr;
+}
+
+.seDiv {
+    width: 100%;
+    height: 235px;
+    /*background-color:red;*/
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    margin-right: 5.5%;
+    border-bottom: 1px solid #49befa;
+    width: 58%;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    margin-right: 5.5%;
+    border-bottom: 1px solid #49befa;
+    width: 22%;
+}
+
+.de {
+    width: 10%;
+    height: 30px;
+    background-color: red;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.left {
+    width: 85%;
+    direction: rtl;
+    height: 100%;
+}
+
+.logo {
+    width: 17%;
+    height: 45%;
+    float: right;
+    margin-top: 40px;
+    background-image: url('../images/logo (1فرایانه).png');
+    background-size: 100% 100%;
+    position: relative;
+    right: 80px;
+}
+
+.babakhti {
+    float: left;
+    width: 73%;
+}
+
+.ask {
+    width: 25%;
+    height: 40px;
+    background-image: url('../images/فرایانه_201946_184254465.png');
+    background-size: 100% 100%;
+    margin-top: 5%;
+    margin-right: 11%;
+}
+
+.p {
+    margin-top: 4%;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 0px;
+    position: relative;
+    right: 45px;
+}
+
+#TextBox1 {
+    width: 80%;
+    margin-right: 10%;
+    height: 25px;
+    margin-top: -5px;
+    border-radius: 7px 7px;
+}
+
+    #TextBox1:focus {
+        outline: none;
+    }
+
+.akhar p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+/*پایان کد فوتر*/
+
+
+/*شروع کد هدر*/
+.bala {
+    width: 100%;
+    height: 50px;
+    background-color: #4d4949;
+}
+
+.ri {
+    min-width: 20%;
+    height: 100%;
+    float: right;
+    margin-right: 2.5%;
+    /*background-color:aqua*/
+}
+
+.le {
+    min-width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 2.5%;
+    /*background-color:rebeccapurple*/
+}
+
+    .le ul li {
+        text-align: center;
+        width: 70px;
+    }
+
+        .le ul li a {
+            border-right: 1px solid white;
+        }
+
+.bala ul {
+    min-width: 100%;
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+    .bala ul li {
+        min-width: 2.5%;
+        list-style: none;
+        text-decoration: none;
+        float: right;
+        margin-right: 1%;
+        margin-left: 1%;
+        padding: 0px;
+    }
+
+.daiere {
+    width: 34px;
+    height: 34px;
+    border-radius: 19px 19px;
+    border: 3.5px solid #ffffff;
+    margin-top: 3.5px;
+    /*float:right;*/
+}
+
+.bala ul li a {
+    float: right;
+    color: white;
+    width: 100%;
+    margin-right: 5.5%;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.moteharek {
+    width: 100%;
+    height: 72px;
+    background-color: #646060;
+    position: sticky;
+    top: 0;
+}
+
+    .moteharek ul {
+        margin: 0px;
+        margin-right: -0.5%;
+        width: 90%;
+        height: 100%;
+    }
+
+        .moteharek ul li {
+            min-width: 2%;
+            list-style: none;
+            text-decoration: none;
+            float: right;
+            margin-right: 1%;
+            margin-left: 1%;
+            padding: 0px;
+            margin-top: 25px;
+        }
+
+.khas {
+    background-size: 100% 100%;
+    /*border: 1px solid red;*/
+    width: 100px;
+    height: 96px;
+}
+
+    .khas a {
+        display: block;
+    }
+
+.picture {
+    width: 100%;
+    height: 50%;
+}
+
+.moteharek ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+/*پایان کد هدر*/
+.main {
+    width: 65%;
+    height: 829px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua;
+}
+
+.MainBody {
+    width: 68%;
+    height: 829px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+.Body {
+    width: 97%;
+    min-height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    .Body .Right {
+        width: 66%;
+        min-height: 500px;
+        float: right;
+    }
+
+    .Body .Left {
+        width: 33.3%;
+        height: 451px;
+        float: right;
+    }
+
+        .Body .Left ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+            .Body .Left ul li {
+                line-height: 50px;
+                width: 362px;
+                height: 44px;
+                background-color: #FFFFFF;
+                margin-right: auto;
+                margin-left: auto;
+                border-bottom: 1px #F1F1F3 solid;
+            }
+
+
+                .Body .Left ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 17px;
+                    margin-right: 20px;
+                    color: black;
+                    display: block;
+                    font-family: 'B Nazanin';
+                    transition: all 1s;
+                }
+
+                .Body .Left ul li.Hover a:hover {
+                    margin-right: 40px;
+                    transition: all 1s;
+                    color: mediumpurple;
+                }
+
+                .Body .Left ul li.Background {
+                    background-color: #F1F1F3;
+                    height: 50px;
+                    font-weight: 900;
+                }
+
+        .Body .Left .ul li.Background {
+            background-color: #F1F1F3;
+            height: 50px;
+            font-weight: 900;
+        }
+
+        .Body .Left .ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+            .Body .Left .ul li {
+                line-height: 50px;
+                width: 362px;
+                height: 33px;
+                background-color: #F1F1F3;
+                margin-right: auto;
+                margin-left: auto;
+                border-bottom: 1px #F1F1F3 solid;
+            }

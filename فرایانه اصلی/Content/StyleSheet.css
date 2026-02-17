@@ -1,0 +1,306 @@
+﻿body {
+    direction: rtl;
+    padding: 0px;
+    margin: 0px;
+}
+
+#slai {
+    position: relative;
+    top: 0;
+}
+
+.meno-hadae {
+    width: 100%;
+    padding-top: 5px;
+    height: 105px; /*background:linear-gradient(#E21C34,#500B28);*/
+    float: right;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    display: block;
+    z-index: 9999;
+    top: 0;
+    position: absolute;
+}
+
+#dog {
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    width: 75%;
+    height: 65px;
+}
+
+    #dog li.li {
+        text-decoration: none;
+        list-style: none;
+        float: right;
+        /*border: 1px solid #ff6a00;*/
+        height: 50px;
+        padding-right: 1px;
+        padding-left: 1px;
+        transition: all 0.5s;
+    }
+
+#menu {
+    background-color: white;
+    padding: 4px;   
+}
+
+    #menu li {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        list-style: none;
+        margin-top: 2px;
+        margin-bottom: 4px;
+    }
+
+        #menu li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #menu li:hover {
+            font-weight: 900;
+            font-size: 16px;
+            word-spacing: 2px;
+            transition: all 0.5s;
+        }
+
+.dakhel ul li.li a {
+    text-align: center;
+}
+
+.marginRight {
+    margin-top: 20px;
+    position: relative;
+    top: -8px;
+    margin-right: 10px;
+    /*border: 1px solid #ffd800;*/
+}
+
+.marginRight-koft {
+    min-width: 30px;
+    margin-right: 10px;
+}
+
+#dog li.li:hover {
+    border-bottom: 4.5px solid white;
+}
+
+.shomare {
+    width: 21%;
+    height: 28px;
+    float: left;
+    /*padding-top:10px*/
+}
+
+    .shomare a {
+        color: white;
+        margin-right: 1.5%;
+        text-decoration: none;
+        line-height: 40px;
+        letter-spacing: 1.25px;
+    }
+
+.ajab {
+    width: 95%;
+    height: 45%;
+    margin-left: 5%;
+}
+
+.menu-sspecial {
+    display: block;
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    min-width: 20px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    display: inline-block;
+    padding: 10px 0;
+    background-color: transparent;
+}
+
+.whit {
+    color: white;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+ul li a .menu-sspecial:hover {
+    border-bottom: 4px solid white;
+}
+
+.caret {
+    color: white;
+    width: 10px;
+    height: 10px;
+    border-top: 6px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    position: relative;
+    top: 13px;
+    right: -85px;
+}
+
+.special a {
+    display: block;
+    line-height: 76px;
+}
+
+.special {
+    background-size: 100% 100%;
+    /*border: 1px solid red;*/
+    width: 100px;
+    height: 96px; /*width:70px; height:60px;*/
+}
+
+.dakhel {
+    width: 75%;
+    height: 65px;
+    margin: auto;
+}
+
+.daron {
+    width: 100%;
+    height: 90px;
+}
+
+header {
+    width: 100%;
+    min-height: 50px;
+}
+
+
+
+.MainThree {
+    width: 70%;
+    height: 386px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -100px;
+    position: relative;
+    top: -45px;
+}
+
+.Itemss {
+    width: 33.33%;
+    min-height: 386px;
+    float: right;
+}
+
+.ItemPicture {
+    width: 93.9%;
+    min-height: 386px;
+    background-image: url('../Images/sprx1.jpg');
+    background-position: left center;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+.Opacity {
+    width: 100%;
+    min-height: 363px;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 18px;
+    padding-top: 23px;
+}
+
+.Icon {
+    width: 100%;
+    height: 95px;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.Color {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.Circle {
+    width: 65px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-right: auto;
+    transition: all 0.5s;
+    margin-left: auto;
+    padding-top: 17px;
+}
+
+.Title {
+    width: 94.5%;
+    height: 49px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+    .Title p {
+        margin: 0px;
+        padding: 0px;
+        line-height: 45px;
+        font-size: 17px;
+        color: white;
+        font-family: 'B Nazanin';
+    }
+
+.ItemPicture:hover .Circle {
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.ItemPicture:hover .Color {
+    color: black;
+    transition: all 0.5s;
+}
+
+.aTags {
+    width: 94.5%;
+    height: 198px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    .aTags a {
+        width: 97.1%;
+        height: 33px;
+        display: block;
+        font-family: 'B Nazanin';
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 30px;
+        padding-right: 10px;
+        transition: all 0.5s;
+    }
+
+        .aTags a:hover {
+            background-color: white;
+            color: black;
+            word-spacing: 1.5px;
+            transition: all 0.5s;
+        }
+
+@media(max-width:512px) {
+    .Itemss {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .MainThree {
+        top: 120px;
+    }
+}

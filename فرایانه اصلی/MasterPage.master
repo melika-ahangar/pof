@@ -1,0 +1,235 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/mester.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+
+            <div class="bala">
+                <div class="ri">
+                    <ul>
+                        <li>
+                            <div class="daiere">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="daiere">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="daiere">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="daiere">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="le">
+                    <ul>
+                        <li>
+                            <a href="darbareMa.aspx">درباره ما 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tamasBaMa.aspx">تماس با ما 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">ثبت نام 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Default.aspx">ورود 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="moteharek">
+            <ul>
+                <li>
+                    <div class="khas">
+                        <a href="Home.aspx">
+                            <img src="images/فرایانه_201946_184254465.png" class="picture"/>
+                        </a>
+                    </div>
+
+                </li>
+                <li>
+                    <a href="#">دوره های آموزشی
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">امور دانشجویی
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">سامانه آزمون
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">خدمات غیر آموزشی
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">مقالات
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">گالری تصاویر
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="MainBody">
+            <div class="Body">
+                <div class="Right">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <div class="Left">
+                    <ul>
+                        <li class="Background">
+                            <a href="#">آخرین مقالات موسسه 
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">سرباز ماهر در آموزشگاه فرایانه سورک
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">برگرداندن بخش هاب حذف شده ی پروژه با ILSpy
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">حقایقی جالب درمورد دنیای برنامه نویسی
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">برگزاری دوره های برنامه نویسی آنلاین در مازندران
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">جذب کارآموز در آموزش گاه فرایانه سورک
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="ul">
+                        <li class="Background">
+                            <a href="#">امکانات
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">دانلود کتاب و جزوه
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">دوره ها
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">پیش ثبت نام
+                            </a>
+                        </li>
+                        <li class="Hover">
+                            <a href="#">درخواست وبسایت
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <div class="footer">
+                <div class="seDiv">
+                    <div class="shabi">
+                        <h1>آخریم مقالات
+                        </h1>
+                        <p>
+                            >سرباز ماهر در آموزشگاه فرایانه سورک 
+                        </p>
+                        <p>
+                            >برگرداندن بخش های حذف شده ی پروژه با ILSpy
+                        </p>
+                        <p>
+                            >حقایقی جالب در مورد دنیای برنامه نویسی
+                        </p>
+                        <p>
+                            >برگزاری دوره های برنامه نویسی آنلاین در مازندران 
+                        </p>
+                    </div>
+                    <div class="shabi">
+                        <h2>تماس با آموزشگاه کامپیوتر فرایانه
+                        </h2>
+                        <p>
+                            آدرس: میاندورود - سورک - 100 متر قبل از تامین اجتماعی - نبش کوچه بخشی
+                        </p>
+                        <p>
+                            تلفن : 01133881416 - 09378950221
+                        </p>
+                        <p>
+                            ایمیل: FarayaneAcademy@gmail.com
+
+                        </p>
+                        <p>
+                            تماس همه روزه از ساعت 9 صبح تا 20 شب
+                        </p>
+
+                    </div>
+
+
+                    <div class="shabi k">
+                        <div class="left">
+                            <div class="logo">
+                            </div>
+                            <div class="babakhti">
+
+
+                                <div class="ask">
+                                </div>
+                                <p class="p">
+                                    برای عضویت در خبرنامه آموزشگاه کامپیوتر فرایانه شماره تماس خود را وارد نمائید
+                                </p>
+                                <br />
+                                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="akhar">
+                    <p>
+                        تمامی حقوق برای آموزشگاه کامپیوتر فرایانه محفوظ است - طراحی سایت و توسعه توسط آموزشگاه کامپیوتر فرایانه
+                        
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+    </form>
+</body>
+</html>

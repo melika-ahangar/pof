@@ -1,0 +1,83 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+}
+
+.pedar {
+    background-color: #F7F8FB;
+    width: 99%;
+    height: 350px;
+    border-radius: 5px 5px;
+    border: 1px solid #808080;
+}
+
+.balaSafeAval {
+    width: 95%;
+    height: 42px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+    .balaSafeAval b {
+        line-height: 48px;
+        font-size: 17px;
+    }
+
+
+
+.khat {
+    height: 60%;
+    float: left;
+    width: 58%;
+    border-bottom: 1px solid #808080;
+}
+
+.ajab {
+    width: 75%;
+    height: 250px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    /*background-color: forestgreen;*/
+}
+
+.chap {
+    direction: rtl;
+    width: 91%;
+    margin: auto;
+    /*background-color:red;*/
+    text-align: right;
+}
+
+.dokme:focus {
+    outline: none;
+}
+
+.dokme {
+    margin-top: 20px;
+    width: 20%;
+    height: 40px;
+    background-color: #ad0af8;
+    border: 0px solid red;
+}
+
+.khar {
+    width: 90%;
+    margin: auto;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.ajab #TextBox2 {
+    width: 10%;
+    margin: auto;
+    height: 30px;
+    margin-top: 30px;
+    border: #D2D6DE solid 1px;
+}
+
+  .khar:focus {
+        outline: none;
+        border: #3D8DBC solid 1px;
+    }
